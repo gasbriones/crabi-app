@@ -21,7 +21,7 @@ Online Project: [https://crabi-app.herokuapp.com/](https://crabi-app.herokuapp.c
 
 ## Usage
 - Go to Actions section and add a new node (Origin, Destiny, Cost) then press "Save node" and wait that Graph render a new one node (*)
-- When you have your complete Graph do a click in nodes that you want to create a new route (**)
+- When you have your complete Graph do a click in nodes that do you want to create a new route (**)
 - You can check the route selected on Actions and you can reset the created route
 - You can check all information about the Graph (First node selected, Current node selected,Visited nodes and Total cost) in "Results" section
 
