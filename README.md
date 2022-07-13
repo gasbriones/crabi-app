@@ -19,5 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 GIT Repository: [https://github.com/gasbriones/crabi-app](https://github.com/gasbriones/crabi-app/tree/master) \
 Online Project: [https://crabi-app.herokuapp.com/](https://crabi-app.herokuapp.com/)
 
-
+## Preview App
+![](captutes/Captura de Pantalla 2022-07-12 a la(s) 21.20.50.png)
 
