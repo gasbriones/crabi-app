@@ -4,7 +4,9 @@
 
 ## Project Base
 - Type Script
-- Eslint
+- React
+- SASS
+- HTML
 
 ## Available Scripts
 
