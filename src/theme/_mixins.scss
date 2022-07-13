@@ -1,0 +1,12 @@
+@function calculateRem($size: 16px) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}

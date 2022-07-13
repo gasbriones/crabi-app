@@ -1,0 +1,18 @@
+@import '../theme';
+
+.layout {
+  width: 100%;
+  max-width: calculateRem(1024px);
+  min-width: calculateRem(560px);
+  background: $white;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+  .main {
+    padding: calculateRem($padding);
+    border: solid calculateRem(1px) $gray;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,15 @@
+$breakpoints: (
+  'small':  920px,
+  'medium': 1024px,
+  'large': 1280px,
+) !default;
+
+$primary: #004ec9;
+$secondary: #183b56;
+$gray: #ccc;
+$white: #fff;
+$black: #000;
+$padding: 30px;
+$padding-inside: 20px;
+$margin: 30px;
+$error: red;

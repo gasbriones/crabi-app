@@ -1,0 +1,10 @@
+@import '../../theme';
+
+.footer {
+  width: 100%;
+  background: $gray;
+  display: flex;
+  height: calculateRem(60px);
+  align-items: center;
+  justify-content: center;
+}

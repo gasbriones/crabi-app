@@ -1,0 +1,14 @@
+@import '../../theme';
+
+.cost {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: calculateRem($margin);
+
+  &__total {
+    margin-left: calculateRem(5px);
+    font-weight: bold;
+  }
+}

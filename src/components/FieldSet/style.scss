@@ -1,0 +1,10 @@
+@import '../../theme';
+
+.fieldset {
+  padding: calculateRem($padding);
+  border: solid calculateRem(1px) $primary;
+
+  legend {
+    padding: 0 $padding-inside;
+  }
+}

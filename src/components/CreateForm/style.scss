@@ -1,0 +1,15 @@
+@import '../../theme';
+
+.create-form {
+  width: 100%;
+
+  &__input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: calculateRem($padding);
+  }
+
+  &__button {
+    padding: $padding 0;
+  }
+}

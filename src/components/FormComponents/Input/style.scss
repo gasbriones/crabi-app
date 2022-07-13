@@ -1,0 +1,16 @@
+@import '../../../theme/index';
+
+.input {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid calculateRem(1px) $secondary;
+  padding: calculateRem(5px);
+
+  &:hover, &:focus {
+    border-bottom-color: $primary;
+    outline: none;
+  }
+
+}

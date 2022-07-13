@@ -1,0 +1,22 @@
+@import '../../../theme/index';
+
+.button {
+  width: 100%;
+  border-radius: calculateRem(6px);
+  height: calculateRem(40px);
+  background-color: $secondary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background-color: $primary;
+  }
+
+}
