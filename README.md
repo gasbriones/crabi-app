@@ -19,6 +19,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 GIT Repository: [https://github.com/gasbriones/crabi-app](https://github.com/gasbriones/crabi-app/tree/master) \
 Online Project: [https://crabi-app.herokuapp.com/](https://crabi-app.herokuapp.com/)
 
+## External libraries used
+G6 Graphics library: [https://g6.antv.vision/en/docs//](https://g6.antv.vision/en/docs//)
+
 ## Usage
 - Go to Actions section and add a new node (Origin, Destiny, Cost) then press "Save node" and wait that Graph render a new one node (*)
 - When you have your complete Graph do a click in nodes that do you want to create a new route (**)
