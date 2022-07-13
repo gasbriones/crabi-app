@@ -20,5 +20,5 @@ GIT Repository: [https://github.com/gasbriones/crabi-app](https://github.com/gas
 Online Project: [https://crabi-app.herokuapp.com/](https://crabi-app.herokuapp.com/)
 
 ## Preview App
-![](captutes/Captura de Pantalla 2022-07-12 a la(s) 21.20.50.png)
 
+![ScreenShot](https://github.com/gasbriones/crabi-app/master/captutes/Captura de Pantalla 2022-07-12 a la(s) 21.20.50.png)
