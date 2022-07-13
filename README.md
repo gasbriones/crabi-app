@@ -21,10 +21,10 @@ Online Project: [https://crabi-app.herokuapp.com/](https://crabi-app.herokuapp.c
 
 ## Preview App Desktop
 
-![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/Captura%20de%20Pantalla%202022-07-12%20a%20la(s)%2021.20.50.png)
+![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/capture_1.png)
 
 ## Preview App Mobile
 
-![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/localhost_3000_(6).png)
+![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/capture_2.png)
 
 

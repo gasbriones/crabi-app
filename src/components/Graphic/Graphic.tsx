@@ -1,5 +1,6 @@
 import React, { useEffect, Dispatch, SetStateAction } from 'react';
 import G6 from '@antv/g6';
+import { Button } from '../FormComponents';
 import './style.scss';
 
 const defaultEdge = {
@@ -31,11 +32,13 @@ const defaultNode = {
 type Props = {
   data?: any;
   setSelectedNode:Dispatch<SetStateAction<string>>
+  resetGraph?: () => void
 };
 
 export const Graphic: React.FC<Props> = function ({
   data,
   setSelectedNode,
+  resetGraph,
 }) {
   useEffect(() => {
     const container = document.querySelector('#canvas');
@@ -74,6 +77,11 @@ export const Graphic: React.FC<Props> = function ({
   }, [data]);
 
   return (
-    <div className="canvas" id="canvas" />
+    <div className="graph">
+      <div className="graph__canvas" id="canvas" />
+      <div className="graph__actions">
+        <Button label="Reset Graph" type="button" action={resetGraph} />
+      </div>
+    </div>
   );
 };

@@ -1,5 +1,14 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { BreadCrumb, Cost, CreateForm, FieldSet, Graphic, MathRepresentation, SearchForm } from '../../components';
+import {
+  BreadCrumb,
+  Button,
+  Cost,
+  CreateForm,
+  FieldSet,
+  Graphic,
+  MathRepresentation,
+  SearchForm,
+} from '../../components';
 import { useGraph } from '../../hooks/useGraph';
 import './style.scss';
 
@@ -34,6 +43,11 @@ function Home(): JSX.Element {
     setRoute([]);
   }, []);
 
+  const resetGraph = useCallback(() => {
+    setRoute([]);
+    setNodes([]);
+  }, []);
+
   useEffect(() => {
     if (selectedNode) {
       setRoute(((prevState) => {
@@ -55,7 +69,7 @@ function Home(): JSX.Element {
       <div className="home__graph">
         <div className="home__graph-image">
           <FieldSet title="Graph">
-            <Graphic data={drawData} setSelectedNode={setSelectedNode} />
+            <Graphic data={drawData} setSelectedNode={setSelectedNode} resetGraph={resetGraph} />
           </FieldSet>
         </div>
         <div className="home__graph-routes">

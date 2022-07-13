@@ -6,11 +6,12 @@ import MyGraph from '../Class/MyGraph';
 import { DrawDataType } from '../types/types';
 
 const defaultNodes = [['a', 'c', '11'], ['b', 'c', '9'], ['a', 'b', '13'], ['c', 'd', '20'], ['e', 'c', '4'], ['c', 'd', '20'], ['d', 'e', '15']];
+const defaultRoute = ['a', 'c', 'd', 'e'];
 
 export function useGraph() {
-  const [nodes, setNodes] = useState<string[][]>([]);
+  const [nodes, setNodes] = useState<string[][]>(defaultNodes);
+  const [route, setRoute] = useState<string[]>(defaultRoute);
   const [costs, setCosts] = useState<number>(0);
-  const [route, setRoute] = useState<string[]>([]);
   const [drawData, setDrawData] = useState<DrawDataType | undefined>(undefined);
   const [partialCost, setPartialCost] = useState<any[][]>([]);
 
@@ -31,9 +32,7 @@ export function useGraph() {
   }, [graphInstance]);
 
   useEffect(() => {
-    if (nodes.length) {
-      init();
-    }
+    init();
   }, [nodes]);
 
   useEffect(() => {
