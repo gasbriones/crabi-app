@@ -8,7 +8,7 @@ import { DrawDataType } from '../types/types';
 const defaultRoutes = [['a', 'c', '11'], ['b', 'c', '9'], ['a', 'b', '13'], ['c', 'd', '20'], ['e', 'c', '4'], ['c', 'd', '20'], ['d', 'e', '15']];
 
 export function useGraph() {
-  const [nodes, setNodes] = useState<string[][]>(defaultRoutes);
+  const [nodes, setNodes] = useState<string[][]>([]);
   const [costs, setCosts] = useState<number>(0);
   const [route, setRoute] = useState<string[]>([]);
   const [drawData, setDrawData] = useState<DrawDataType | undefined>(undefined);
