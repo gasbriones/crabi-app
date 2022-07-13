@@ -29,9 +29,6 @@ Notes:
 - (*) We pre-load data for you, if do you want to create a new Graph please go to Graph section and press "Reset Graph"
 - (**) The system only lets you click on nodes adjacent to the last selected node
 
-
-
-
 ## Preview App Desktop
 
 ![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/capture_1.png)
