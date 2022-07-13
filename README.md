@@ -34,10 +34,10 @@ Notes:
 
 ## Preview App Desktop
 
-![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/capture_1.png)
+![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captures/capture_1.png)
 
 ## Preview App Mobile
 
-![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captutes/capture_2.png)
+![ScreenShot](https://github.com/gasbriones/crabi-app/blob/master/captures/capture_2.png)
 
 
