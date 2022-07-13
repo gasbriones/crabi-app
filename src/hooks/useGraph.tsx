@@ -5,7 +5,7 @@ import React, {
 import MyGraph from '../Class/MyGraph';
 import { DrawDataType } from '../types/types';
 
-const defaultRoutes = [['a', 'c', '11'], ['b', 'c', '9'], ['a', 'b', '13'], ['c', 'd', '20'], ['e', 'c', '4'], ['c', 'd', '20'], ['d', 'e', '15']];
+const defaultNodes = [['a', 'c', '11'], ['b', 'c', '9'], ['a', 'b', '13'], ['c', 'd', '20'], ['e', 'c', '4'], ['c', 'd', '20'], ['d', 'e', '15']];
 
 export function useGraph() {
   const [nodes, setNodes] = useState<string[][]>([]);
